@@ -8,6 +8,21 @@ h1 {
   font-size: 3rem;
   color: white;
   text-transform: uppercase;
+  letter-spacing: .15rem;
+}
+
+h1 a:link {
+  color: white;
+  text-decoration: none;
+}
+
+h1 a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: black;
 }
 
 h2 {
@@ -73,6 +88,7 @@ a:hover {
   color: #2c9ab7;
   font-weight: bold;
   font-size: 1.25rem;
+  line-height: 2rem;
 }
 
 blockquote {
